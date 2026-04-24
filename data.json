@@ -1,0 +1,15 @@
+[
+  {"rank":1,"repo":"anthropics/skills","stars":123257,"url":"https://github.com/anthropics/skills"},
+  {"rank":2,"repo":"google-gemini/gemini-cli","stars":102296,"url":"https://github.com/google-gemini/gemini-cli"},
+  {"rank":3,"repo":"modelcontextprotocol/servers","stars":84445,"url":"https://github.com/modelcontextprotocol/servers"},
+  {"rank":4,"repo":"openai/codex","stars":77544,"url":"https://github.com/openai/codex"},
+  {"rank":5,"repo":"upstash/context7","stars":53618,"url":"https://github.com/upstash/context7"},
+  {"rank":6,"repo":"tmux/tmux","stars":44841,"url":"https://github.com/tmux/tmux"},
+  {"rank":7,"repo":"cli/cli","stars":44019,"url":"https://github.com/cli/cli"},
+  {"rank":8,"repo":"microsoft/playwright-mcp","stars":31344,"url":"https://github.com/microsoft/playwright-mcp"},
+  {"rank":9,"repo":"tailscale/tailscale","stars":30903,"url":"https://github.com/tailscale/tailscale"},
+  {"rank":10,"repo":"vercel-labs/agent-skills","stars":25638,"url":"https://github.com/vercel-labs/agent-skills"},
+  {"rank":11,"repo":"vercel-labs/skills","stars":15894,"url":"https://github.com/vercel-labs/skills"},
+  {"rank":12,"repo":"firebase/firebase-tools","stars":4397,"url":"https://github.com/firebase/firebase-tools"},
+  {"rank":13,"repo":"browserbase/mcp-server-browserbase","stars":3284,"url":"https://github.com/browserbase/mcp-server-browserbase"}
+]
