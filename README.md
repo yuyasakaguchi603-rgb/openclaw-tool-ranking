@@ -72,3 +72,45 @@ OpenClawを実用で強くするなら、スター数だけでなく「作業事
 ## データ取得メモ
 
 GitHubスター数は2026-04-24時点で確認しました。スター数は変動します。
+
+## 追加で見つけたすごいリポジトリ
+
+OpenClaw本体に直接入れるというより、周辺強化・調査対象として強いもの。
+
+| 分類 | リポジトリ | スター | 何がすごいか | OpenClaw目線 |
+|---|---|---:|---|---|
+| ワークフロー自動化 | `activepieces/activepieces` | 21,849 | AI Agents + MCP + 業務自動化。Zapier/Make系のOSS版に近い | 外部サービス連携を増やすなら強い |
+| ブラウザ自動化 | `vercel-labs/agent-browser` | 30,453 | AIエージェント向けブラウザ操作CLI | Playwright MCPと競合/補完。要検証 |
+| コーディングエージェント | `QwenLM/qwen-code` | 23,804 | Qwen系のターミナルAIエージェント | Codex/Gemini/Claudeの別働隊候補 |
+| コーディングエージェント | `plandex-ai/plandex` | 15,287 | 大規模コードベース向けAI coding agent | 長期タスク分解に良さそう |
+| コーディングエージェント | `opencode-ai/opencode` | 12,184 | ターミナル型AI coding agent | OpenClawのACP/委任候補 |
+| 複数エージェント管理 | `smtg-ai/claude-squad` | 7,143 | Claude Code / Codex / OpenCode等を並列管理 | たくさん走らせるなら面白い |
+| MCP開発基盤 | `mcp-use/mcp-use` | 9,804 | MCPアプリ/サーバー開発フレームワーク | 自作MCPを作るなら見る価値あり |
+| DB接続MCP | `googleapis/mcp-toolbox` | 14,792 | データベース向けMCPサーバー | SQL/DB分析をOpenClawに持たせる候補 |
+| Figma連携 | `GLips/Figma-Context-MCP` | 14,502 | Figmaのレイアウト情報をAIに渡すMCP | UI実装をFigmaから起こすなら強い |
+| PC操作MCP | `wonderwhy-er/DesktopCommanderMCP` | 5,940 | ターミナル・ファイル検索・diff編集をMCP化 | OpenClawは既に同等機能あり。HERMES側には良いかも |
+| OpenClaw素材集 | `mergisi/awesome-openclaw-agents` | 3,071 | OpenClaw向けSOUL.mdテンプレ集 | エージェント人格/役割設計の参考になる |
+| AIアプリ集 | `Arindam200/awesome-ai-apps` | 10,229 | RAG/Agent/Workflowの実例集 | 作りたいもの探しに良い |
+| LLMリソース集 | `WangRongsheng/awesome-LLM-resources` | 8,166 | LLM/Agent/MCP資料まとめ | 調査用ブックマーク |
+
+## 追加候補の優先度
+
+### すぐ試す価値あり
+
+1. `vercel-labs/agent-browser`
+2. `QwenLM/qwen-code`
+3. `opencode-ai/opencode`
+4. `googleapis/mcp-toolbox`
+5. `GLips/Figma-Context-MCP`
+
+### 研究・ブックマーク枠
+
+1. `activepieces/activepieces`
+2. `mcp-use/mcp-use`
+3. `plandex-ai/plandex`
+4. `smtg-ai/claude-squad`
+5. `mergisi/awesome-openclaw-agents`
+
+## 注意
+
+セキュリティ系・ブラウザ自動化系・PC操作系MCPは強いぶん危ないです。OpenClawに入れるなら、権限と対象ディレクトリを絞るのが安全。
